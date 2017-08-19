@@ -1,3 +1,4 @@
+#Compare triplets: https://www.hackerrank.com/challenges/compare-the-triplets
 A <- c(5,6,7)
 B <- c(3,6,10)
 #option 1: direct comparison
@@ -22,7 +23,7 @@ calc_score <- function(A,B){
 print(calc_score(A,B))
 
 
-# VERY BIG SUM
+# VERY BIG SUM: https://www.hackerrank.com/challenges/a-very-big-sum
 n<-5
 input<-c(1000000001, 1000000002, 1000000003, 1000000004, 1000000005)
 
@@ -40,7 +41,7 @@ big_sum <- function(n,input,showsteps){
 
 print(big_sum(n,input,showsteps=TRUE),digits=10)
 
-#Diagonal Difference
+#Diagonal Difference: https://www.hackerrank.com/challenges/diagonal-difference
 
 n<-3
 M=matrix(c(11, 2, 4,     4, 5, 6,    10, 8, -12),nrow=n,ncol=n)
@@ -60,7 +61,7 @@ diag_diff <-function(M,n,debug){
 print(diag_diff(M,n,debug=TRUE))
 
 
-#birthday-cake-candles
+#birthday-cake-candles: https://www.hackerrank.com/challenges/birthday-cake-candles
 n<-4
 candles<-c(3,2,1,3)
 
@@ -80,7 +81,7 @@ print(blown_candles(n,candles))
 
 
 
-#Implementaion -> grading
+#Implementaion -> grading: https://www.hackerrank.com/challenges/grading
 n<-4
 grades<-c(73, 67, 38, 33)
 
@@ -104,14 +105,14 @@ print(round_grades(n,grades))
 
 
 
-#sorting: big-sorting
+#sorting: big-sorting: https://www.hackerrank.com/challenges/big-sorting
 n<-6
 to_sort<-c(31415926535897932384626433832795, 1, 3, 10 ,3, 5)
 sorted<-to_sort[order(to_sort)]
 print(sorted,digits=20)
 
 
-#sorting: The Full Counting Sort
+#sorting: The Full Counting Sort: https://www.hackerrank.com/challenges/countingsort4
 n<-20
 nums<-c(0,6,0,6,4,0,6,0, 6, 0, 4, 3,0,1,5,1,2,4,2,4) 
 words<-c("ab","cd","ef","gh","ij","ab" ,"cd" ,"ef" ,"gh" ,"ij","that" ,"be" ,"to" ,"be" ,"question" ,"or" ,"not" ,"is" ,"to" ,"the")
@@ -124,7 +125,7 @@ order_advanced<-function(df){
 
 }
 
-#Gaming array
+#Gaming array: https://www.hackerrank.com/contests/hourrank-15/challenges/an-interesting-game-1
 #input
 nrgames<-2
 game<-list()
